@@ -1127,10 +1127,6 @@ overview of their function and contents.
       A name assigned to the build. The name defaults to a datetime stamp
       of when the build was started but can be defined by the metadata.
 
-   :term:`BZRDIR`
-      The directory in which files checked out of a Bazaar system are
-      stored.
-
    :term:`CACHE`
       Specifies the directory BitBake uses to store a cache of the metadata
       so it does not need to be parsed every time BitBake is started.
@@ -1636,9 +1632,6 @@ overview of their function and contents.
       section.
 
       -  ``az://``: Fetches files from an Azure Storage account using HTTPS.
-
-      -  ``bzr://``: Fetches files from a Bazaar revision control
-         repository.
 
       -  ``ccrc://``: Fetches files from a ClearCase repository.
 
